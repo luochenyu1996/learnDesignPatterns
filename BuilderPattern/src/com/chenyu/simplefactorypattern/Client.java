@@ -1,7 +1,8 @@
 package com.chenyu.simplefactorypattern;
 
 /**
- * 简单工厂
+ * 简单工厂 测试类
+ * 简单工厂又叫静工厂
  *
  *
  * @author chen yu
@@ -9,11 +10,7 @@ package com.chenyu.simplefactorypattern;
  */
 public class Client {
 
-
     public static void main(String[] args) {
         Product product = SimpleFactory.makeProduct(1);
     }
-
-
-
 }
